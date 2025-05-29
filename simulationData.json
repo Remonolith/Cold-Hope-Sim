@@ -1,1 +1,31 @@
-
+{
+  "simulation": "Холод Надії",
+  "location": "Frozen Rift Planet",
+  "segments": [
+    { "id": 1, "options": ["Аметист", "Шпінель", "Обсидіан", "Бірюза"], "correct": "Обсидіан" },
+    { "id": 2, "options": ["Селеніт", "Пірит", "Галіт", "Малахіт"], "correct": "Пірит" },
+    { "id": 3, "options": ["Кварц", "Онікс", "Целестин", "Лазурит"], "correct": "Целестин" },
+    { "id": 4, "options": ["Гематит", "Циркон", "Гірський кришталь", "Опал"], "correct": "Опал" },
+    { "id": 5, "options": ["Флюорит", "Халькопірит", "Янтар", "Топаз"], "correct": "Халькопірит" },
+    { "id": 6, "options": ["Рутил", "Сапфір", "Смарагд", "Гросуляр"], "correct": "Гросуляр" },
+    { "id": 7, "options": ["Кианіт", "Празіоліт", "Турмалін", "Цоізит"], "correct": "Празіоліт" }
+  ],
+  "reactionWindowSeconds": { "min": 10, "max": 25 },
+  "onFailure": {
+    "type": "White Dwarf Detonation",
+    "effects": ["Flashburn", "Loss of mission", "Memory reset"],
+    "retryAvailable": true,
+    "retryTimeLimit": 5
+  },
+  "groupSettings": {
+    "maxPlayers": 10,
+    "leaderAuthority": true,
+    "sharedFate": true
+  },
+  "visualization": {
+    "dome": "crystalline hexashield",
+    "climate": "subzero stormfronts",
+    "surface": "deep cracks under snowy layer",
+    "aura": "pale blue shimmer"
+  }
+}
