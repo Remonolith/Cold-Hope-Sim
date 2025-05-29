@@ -1,0 +1,16 @@
+{
+  "simulation": "Cold Hope",
+  "segments": [
+    {
+      "id": 1,
+      "options": ["ice", "plasma", "obsidian", "argon"],
+      "correct": "obsidian"
+    },
+    {
+      "id": 2,
+      "options": ["quartz", "xenon", "aether", "ice"],
+      "correct": "aether"
+    }
+    // +5 сегментів аналогічно
+  ]
+}
